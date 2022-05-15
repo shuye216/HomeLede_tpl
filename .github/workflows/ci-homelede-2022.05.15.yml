@@ -87,7 +87,7 @@ jobs:
         echo "cd $GITHUB_WORKSPACE/HomeLede"
         cd $GITHUB_WORKSPACE/HomeLede
         chmod 777 $HOMELEDE_EXT_SH
-        ./HOMELEDE_EXT_SH
+        ./$HOMELEDE_EXT_SH
         echo "github_workspace:$GITHUB_WORKSPACE"
         
 
